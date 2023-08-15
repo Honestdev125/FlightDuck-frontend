@@ -1,0 +1,71 @@
+{
+  "name": "viaje",
+  "version": "0.1.0",
+  "homepage": "https://flightduck.s3.ap-south-1.amazonaws.com",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@emotion/react": "^11.8.1",  
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.4.3",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.17.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "date-fns": "^2.0.0-beta.5",
+    "google-map-react": "^2.2.1",
+    "google-maps-react": "^2.0.6",
+    "html-react-parser": "^0.10.1",
+    "material-auto-rotating-carousel": "^3.0.2",
+    "moment": "^2.29.1",
+    "owl.carousel": "^2.3.4",
+    "react": "^16.12.0",
+    "react-autosuggest": "^10.1.0",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-date-picker": "^8.2.0",
+    "react-datepicker": "^4.1.0",
+    "react-debounce-input": "^3.3.0",
+    "react-dom": "^16.12.0",
+    "react-dropdown": "^1.9.2",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-hooks-global-state": "^1.0.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-select": "^5.7.4",
+    "react-slideshow-image": "^4.2.1",
+    "react-swipeable-views": "^0.13.9",
+    "reactjs-popup": "^2.0.4",
+    "wowjs": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@mui/lab": "^5.0.0-alpha.70",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}

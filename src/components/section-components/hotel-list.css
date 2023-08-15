@@ -1,0 +1,12 @@
+.MuiSlider-rail {
+  height: 8px !important;
+  border-radius: 8px !important;
+}
+.MuiSlider-track {
+  height: 8px !important;
+  border-radius: 8px !important;
+}
+.MuiSlider-thumb {
+  height: 17px !important;
+  width: 17px !important;
+}

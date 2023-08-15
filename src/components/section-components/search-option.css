@@ -1,0 +1,361 @@
+/*-----------------------------------*/
+select option {
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.search-page-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.search-page-logo {
+    position: relative;
+    max-width: 414px;
+    height: 125px;
+    margin: 85px auto 72px auto;
+    padding: 0;
+}
+
+.search-page-logo img {
+    width: 100%;
+}
+
+.search-page-header {
+    max-width: 1091px;
+    margin: 36px auto;
+}
+
+.search-page-header .main-title {
+    margin: auto;
+    min-height: 77px;
+    line-height: 77px;
+    margin: 0 auto 12px auto;
+}
+
+.search-page-header .sub-title {
+    margin: 12px auto 0px auto;
+    min-height: 31px;
+    line-height: 31px;
+}
+
+.search-page-header h1 {
+    color: #ffffff;
+    font-family: Lexend, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.search-page-header h3 {
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.search-form-group1 {
+    max-width: 1232px;
+    min-height: 87px;
+    border: none;
+    border-radius: 50px;
+    background: #321D7499;
+    box-shadow: 0px 15px 15px 0px #00000029;
+    margin: 24px auto 12px auto;
+    padding: 16px 12px;
+}
+
+.search-form-group1 .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.search-form-item-wrap {
+    padding: 0 10px;
+}
+
+.search-form-group2 {
+    max-width: 675px;
+    min-height: 90px;
+    border: none;
+    border-radius: 50px;
+    background: #321D7499;
+    box-shadow: 0px 15px 15px 0px #00000029;
+    margin: 12px auto 200px auto;
+    padding: 15px 20px;
+}
+
+.search-form-item {
+    width: 100%;
+    height: 60px;
+    background: #321D7499;
+    border: 1px solid #F6F6F6;
+    border-radius: 50px;
+    outline: none;
+    margin: 0;
+    padding: 0 20px 0 32px;
+}
+
+.search-title-item {
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+}
+
+.search-title-item p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    line-height: 60px;
+    padding-left: 0;
+}
+
+.search-form-item input,
+.search-form-item select {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.search-form-item i {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    margin-top: -8px;
+    color: #FC9401;
+}
+
+.search-form-adult-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form-adult-sub-wrap {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.search-form-adult-sub-wrap i {
+    position: inherit;
+    margin-top: 20px;
+}
+
+.search-fg-wrap {
+    margin: 0;
+    padding: 0 5px;
+}
+
+
+.vertical-line {
+    width: 1px;
+    height: 30px;
+    line-height: 60px;
+    border: 0px solid #CCCCCC;
+    border-left-width: 1px;
+    margin-top: 15px;
+}
+
+.search-button {
+    width: 100%;
+    height: 60px;
+    border: none !important;
+    outline: none !important;
+    border-radius: 50px;
+    color: #111111;
+    background: #FC9401;
+    box-shadow: 0px 18px 20px 0px #FC940126;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.search-form-adult-wrap {
+    cursor: pointer;
+}
+
+.search-form-adult-wrap .text {
+    line-height: 60px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    padding-left: 10px;
+    letter-spacing: -10;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btnAccept {
+    padding: 0px auto 0px auto;
+    font-size: 1rem !important;
+    height: 52px;
+    line-height: 0px !important;
+}
+
+.search-form-item .css-1laqsz7-MuiInputAdornment-root {
+    position: absolute;
+    left: -38px;
+    margin-left: 8px;
+}
+
+.search-form-item .MuiInputBase-input {
+    padding: 0;
+}
+
+.MuiButtonBase-root:visited {
+    border: none !important;
+}
+
+.MuiSvgIcon-root:focus {
+    border: none !important;
+}
+
+.search-form-item {
+    padding: 0 10px 0 32px;
+}
+
+.search-form-item path {
+    color: #FC9401;
+    scale: 1.2;
+}
+
+.search-form-item path:hover {
+    padding: none;
+    scale: 1.2;
+}
+
+.adults-dlg {
+    padding: 0px;
+    width: 100%;
+}
+
+.adults-dlg .btn {
+    padding: 0 22px !important;
+}
+
+.adults-dlg .row,
+.adults-dlg .col {
+    padding: 0;
+    margin: 15px auto !important;
+}
+
+.item-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adult-dig-item {
+    width: 60px;
+    text-align: center;
+    line-height: 0;
+}
+
+.btn-adult {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #FC9401;
+}
+
+.btn-adult:hover, .btn-adult:focus {
+    border: none;
+    outline: none;
+    transform: none;
+}
+
+.MuiInputBase-input:hover {
+    border: none;
+}
+
+.MuiInputBase-input {
+    border: none;
+}
+
+.MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: none;
+    border: none;
+}
+
+.MuiInput-underline {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: none;
+
+    border: none;
+}
+
+.MuiInputBase-inputAdornedEnd:focus .MuiInput-underline:before {
+    border: none !important;
+}
+
+.MuiInputBase-inputAdornedEnd .MuiInput-underline:before {
+    border: none !important;
+}
+
+.MuiInput-underline.Mui-error:after {
+
+    border: none;
+}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root:focus {
+    border: none;
+    outline: none;
+}
+
+.MuiInput-formControl:focus {
+    border: none;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    margin: 0 !important;
+}
+
+.MuiInput-underline:after,
+.MuiInput-underline .Mui-focused:after {
+    border: none !important;
+}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root:hover {
+   transform: none;
+   text-transform: none;
+}

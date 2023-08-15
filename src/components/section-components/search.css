@@ -1,0 +1,214 @@
+.site-logo {
+    margin: 149px auto 54px auto;
+}
+
+.site-logo-title {
+    color: #ffffff;
+    text-align: center;
+    padding: auto;
+}
+
+.site-logo-title h1 {
+    font-family: 'Lexend', sans-serif !important;
+    font-size: 5rem;
+    /* font-weight: 700; */
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.search-main-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px 0px 10px 20px;
+    background: #FFFFFF4e;
+}
+
+.search-single-wrap {
+    border: none;
+    border-radius: none;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60px !important;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0px 20px 0px 0px;
+}
+
+.search-main-wrapper input,
+.search-main-wrapper select {
+    width: 100% !important;
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 0 0 40px;
+    color: #000000;
+    background-color: #F6F6F6;
+}
+
+.search-main-wrapper input:hover,
+.search-main-wrapper select:hover,
+.search-main-wrapper input:focus,
+.search-main-wrapper select:focus {
+    border: none;
+    outline: none;
+}
+
+.MuiFormControl-root, .MuiTextField-root, .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+.search-single-wrap div:first-child {
+    background-color: #F6F6F6;
+}
+
+.search-main-wrapper i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.spliter {
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #3B3E3F;
+    background-color: #F6F6F6;
+}
+
+.sub-title {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title p {
+    color: #ffffff;
+}
+
+.btn-search {
+    padding: 0 !important;
+    color: #ffffff !important;
+    background-color: #FC9401 !important;
+    border: none !important;
+}
+
+.btn-search i {
+    margin-left: 7px;
+    font-size: 22px;
+}
+
+.btn-search span {
+    position: relative;
+    padding-right: 28px;
+}
+
+.btn-search span i {
+    position: absolute;
+    top: 1px;
+}
+
+.adult-wrapper {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-right: 20px;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+.adult-wrapper input,
+.adult-wrapper select {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.adult-wrapper input:hover,
+.adult-wrapper select:hover,
+.adult-wrapper input:focus,
+.adult-wrapper select:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root {
+  border-radius: 0px;
+  border: none;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root select,
+.css-1480iag-MuiInputBase-root-MuiInput-root input {
+  background: transparent !important;
+  border: none !important;
+  padding-left: 0px !important;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root select:hover,
+.css-1480iag-MuiInputBase-root-MuiInput-root input:hover,
+.css-1480iag-MuiInputBase-root-MuiInput-root select:focus,
+.css-1480iag-MuiInputBase-root-MuiInput-root input:focus {
+  background: transparent !important;
+  border: none !important;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:before,
+.css-1480iag-MuiInputBase-root-MuiInput-root:after {
+  border: none !important;
+  color: #e3850e;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input input {
+  outline: none;
+  border: none;
+}
+
+/* .css-ittuaa-MuiInputAdornment-root {
+  margin-right: 0px;
+  padding-left: 20px;
+} */
+
+.css-ittuaa-MuiInputAdornment-root input {
+  padding-left: 0px;
+}
+
+.css-9sors8-MuiButtonBase-root-MuiIconButton-root button,
+.css-9sors8-MuiButtonBase-root-MuiIconButton-root select {
+  text-transform: none;
+  border: none;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    text-transform: none;
+    font-size: 1rem !important;
+    color: #666666;
+    border: none;
+}
+
+
+.option .css-i4bv87-MuiSvgIcon-root {
+    color: #FC9401;
+}
